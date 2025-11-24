@@ -18,11 +18,36 @@ li {
     border: 2px solid black;
     text-align: center;
     margin: 200px auto;
-    width: 500px;
+    width: 300px;
 
 }
 
 h1 {
-    
+    font-size: 30px;
 }
+
+.mail {
+    border: 2px solid black;
+    padding: 2px;
+    padding-left: 5px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.passord {
+    border: 2px solid black;
+    padding: 2px;
+    padding-left: 5px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
         
