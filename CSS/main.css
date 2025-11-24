@@ -14,40 +14,125 @@ li {
     margin: 0 auto;
 }
 
+body .LoggInnPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+
+}
 .box {
-    border: 2px solid black;
+    border: 2px solid rgb(202, 201, 201);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    padding-top: 20px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 30px;
+    width: 220px;
+    margin: 150px auto;
+}
+.box h1 {
     text-align: center;
-    margin: 200px auto;
-    width: 300px;
-
+    color: rgb(81, 162, 192);
 }
 
-h1 {
-    font-size: 30px;
+.inputGruppe input {
+    width: 200px;
+    height: 25px;
+    justify-content: center;
+    border: 1px solid rgb(103, 103, 103);
+    border-radius: 5px;
 }
 
-.mail {
-    border: 2px solid black;
-    padding: 2px;
-    padding-left: 5px;
-    border-radius: 15px;
+.profil {
+    position: absolute;
+    font-size: 15px;
+    right: 48px;
+    top: 105px;
+    color: rgb(103, 103, 103);
+    pointer-events: none;
+}
+
+.pass {
+    position: absolute;
+    right: 48px;
+    top: 137px;
+    color: rgb(103, 103, 103);
+    pointer-events: none;
+}
+
+.inputGruppe {
+    margin: 8px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.loggInn {
+    text-align: center;
+}
+
+.loggInn input {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.links {
+    display: flex;
+    margin-top: 5px;
+    position: relative;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.RememberGlemt {
+    margin-left: 13px;
+    display: flex;
+    font-size: 12px;
+    gap: 27px;
+    color: rgb(255, 255, 255);
+}
+
+.RememberGlemt a {
+    text-decoration: none;
+}
+
+.checkbox-item {
+    display: flex;
+    justify-content: center;
+}
+
+.linje {
+    display: block;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+/*p {
+    font-size: 12px;
+    margin: 0;
+    position: relative;
     width: fit-content;
-    margin: 0 auto;
-}
-
-.passord {
-    border: 2px solid black;
-    padding: 2px;
+    top: 13px;
+    border: 1px solid transparent;
+    background-color: white;
+    margin-left: 93px;
     padding-left: 5px;
-    border-radius: 15px;
-    width: fit-content;
-    margin: 10px auto;
-}
+    padding-right: 5px;
 
-input {
-    border: none;
-    outline: none;
-    background: transparent;
-}
+}*/
 
+.home a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
         
