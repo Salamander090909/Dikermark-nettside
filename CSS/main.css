@@ -60,7 +60,6 @@ nav {
 .ham-meny.active span:nth-child(1) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
-
 }
 
 .ham-meny.active span:nth-child(2) {
@@ -97,8 +96,8 @@ body .LoggInnPage {
     justify-content: center;
     align-items: center;
     margin-top: -250px;
-
 }
+
 .box {
     border: 2px solid rgb(202, 201, 201);
     background: rgba(255, 255, 255, 0.2);
