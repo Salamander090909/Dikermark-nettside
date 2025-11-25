@@ -210,6 +210,7 @@ body .LoggInnPage {
 
 .infoBoks {
     border: 1px solid white;
+    background-color: black;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -244,3 +245,21 @@ body .LoggInnPage {
     margin-left: 53px;
 }
 
+.velkommen {
+    border: solid 2px black;
+    border-color: transparent;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+
+.velkommen p {
+    width: 50ch;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.velkommen h1 {
+    font-size: 40px;
+}
