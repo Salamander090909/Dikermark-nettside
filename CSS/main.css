@@ -1,6 +1,11 @@
 body {
+    height: 100%;
+    margin: 0;
     background-color: rgb(82, 81, 81);
     color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .off-screen-meny {
@@ -199,30 +204,43 @@ body .LoggInnPage {
     top: 10px;
 }
 
-.info li {
+.infoBoks li {
     list-style: none;
 }
 
-.info {
+.infoBoks {
     border: 1px solid white;
-    width: 300px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    padding-left: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
 }
 
-.info ul {
-    position: relative;
-    right: 200px;
-    top: -15px;
+.infoBoks ul {
+    margin: 0;
 }
 
-.info li {
-    font-size: 25px;
+.infoBoks li {
+    font-size: 20px;
     margin-top: 50px;
 }
 
-.info a {
-    font-size: 10px;
+.infoBoks p {
+    font-size: 15px;
 }
+
+.logo {
+    width: 15%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.fa-brands {
+    scale: 2;
+    margin-top: 20px;
+    margin-left: 53px;
+}
+
