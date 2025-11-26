@@ -1,11 +1,98 @@
 <!DOCTYPE html>
-
-
+<html lang="en">
 <head>
-
-
+    <meta charset="UTF-8">
+    <title>Galleri</title>
+    <link rel="stylesheet" href="../CSS/galleri.css">
 </head>
 
 <body>
-    <h1>gurt</h1>
+
+    <div class="off-screen-meny">
+        <ul>
+            <li><a href="../HTML/index.html">Home</a></li>
+            <li><a href="../HTML/galleri.html">Galleri</a></li>
+            <li><a href="../HTML/loggin.html">Logg inn</a></li>
+        </ul>
+    </div>
+
+    <nav>
+        <div class="ham-meny">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <a href="../HTML/loggin.html">Log in</a>
+
+    <!-- HERO SECTION: image + title -->
+    <section class="hero">
+        <img src="images/image1.JPG" class="bg-image" alt="Galleri bilde">
+        <h1 class="hero-title">Galleri</h1>
+    </section>
+
+   
+    <div class="content">
+
+    </div>
+
+    <script>
+        const hamMenu = document.querySelector('.ham-meny');
+        const offScreenMenu = document.querySelector('.off-screen-meny');
+
+        hamMenu.addEventListener('click', () => {
+            hamMenu.classList.toggle('active');
+            offScreenMenu.classList.toggle('active');
+        });
+    </script>
+
+
+
+
+<h1 class="text2">signe solberg</h1>
+<h2 class="text3">foto: Tor S. Ulstein </h2>
+
+<img src="images/image2.JPG" class="image2" alt="">
+<img src="images/image3..JPG" class="image3" alt="">
+<img src="images/image4..JPG" class="image4" alt="">
+
+<h1 class="text10">alle unge griner.</h1>
+<h1 class="text11">hold det trygt hold det i live</h1>
+<h1 class="text12">skillpader har inte ører</h1>
+
+    <section class="gurt">
+        <img src="images/image5.JPG" class="bg-image" alt="Galleri bilde">
+
+
+    </section>
+<h1 class="text13">de siste som står og de første som våkner</h1>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1 class="text14">Audgunn Vilhelmsen</h1>
+    <h2 class="text15">foto: Tor S. Ulstein</h2>
+
+<img src="images/image6.JPG" class="image2" alt="">
+<img src="images/image7.JPG" class="image3" alt="">
+<img src="images/image8.JPG" class="image4" alt="">
+
+<h1 class="text10">alle unge griner.</h1>
+<h1 class="text11">hold det trygt hold det i live</h1>
+<h1 class="text12">skillpader har inte ører</h1>
+<br><br><br><br><br><br><br><br><br><br>
+
+<section class="gurt">
+    <h1 class="text14">Per Kristian Nygård</h1>
+    <h2 class="text15">foto: Tor S. Ulstein</h2>
+        <img src="images/image5.JPG" class="bg-image" alt="Galleri bilde">
+
+
+    </section>
+    <br><br><br><br><br><br><br><br><br><br>
+        <h1 class="text14">Marthe Berger Walthisen</h1>
+    <h2 class="text15">foto: Tor S. Ulstein</h2>
+    <img src="images/image9.JPG" class="image9" alt="">
+<img src="images/image10.JPG" class="image10" alt="">
+    
 </body>
+</html>
