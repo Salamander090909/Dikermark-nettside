@@ -174,21 +174,6 @@ button a:hover {
     color: #0000EE;
 }
 
-.miniLogo {
-    width: 80px;
-    position: fixed;
-    left: 30px;
-    z-index: 2;
-}
-
-.miniLogo img {
-    width: 100%;
-    transition: 0.3s;
-}
-
-.miniLogo img:hover {
-    scale: 1.09;
-}
 
 .kontakt {  
     width: 100%;
@@ -242,7 +227,7 @@ form button:hover {
 }
 
 .hvit {
-    background-color: white;
+    background-color: #adadad;
 }
 
 .åpningstider {
@@ -272,25 +257,54 @@ form button:hover {
 }
 .sted h1 {
     width: fit-content;
-    margin: 60px auto;
+    margin: 100px auto;
 }
 
-.sted li {
-    color: black;
-    list-style: none;
-    font-size: 30px;
+.rad {
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 40px;
 }
 
-.sted ul {
+.kolonne {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.bilder img {
+    height: 250px;
+    margin: 0 50px 10px 50px;
+    gap: 50px;
+}
+
+.kolonne:nth-child(2) {
+    margin: 100px 5px;
+    margin-bottom: 0;
+}
+
+
+.knapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 
 }
 
-.sted li :nth-child(1){
-    margin: 0 100px;
+.knapper button {
+    margin: 0 190px 10px 100px;
+    background-color: #24295d;
 }
 
-.sted img {
-    width: 200%;
+.kolonne:nth-child(2) .knapper button {
+    margin: 0 120px 10px 40px;
 }
+
+.knapper button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 

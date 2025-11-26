@@ -3,45 +3,53 @@
 }
 
 .infoBoks {
-    border: 1px solid white;
-    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
     width: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin-top: auto;
 }
 
 .infoBoks ul {
-    margin: 0;
+    margin-left: 200px;
 }
 
 .infoBoks li {
     font-size: 20px;
     margin-top: 50px;
+    color: black;
 }
 
 .infoBoks p {
     font-size: 15px;
+
 }
 
 .logo {
     width: 15%;
+    margin-left: 300px;
 }
 
 .logo img {
     width: 100%;
 }
 
-.fa-brands {
-    scale: 2;
-    margin-top: 20px;
-    margin-left: 53px;
+.face {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.insta {
+    width: 100px;
+    height: 100px;
+
 }
 
 
 .off-screen-meny {
-    background-color: rgb(34, 37, 49);
+    background-color: rgb(205, 205, 205);
     height: 100px;
     width: 100%;
     position: fixed;
@@ -82,7 +90,7 @@ nav {
 .ham-meny span {
     height: 5px;
     width: 100%;
-    background-color: #6F86FF;
+    background-color: #24295d;
     border-radius: 25px;
     position: absolute;
     top: 50%;
@@ -123,7 +131,7 @@ nav {
 }
 
 .off-screen-meny a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -136,4 +144,20 @@ nav {
 
 .off-screen-meny li:hover {
     scale: 1.3;
+}
+
+.miniLogo {
+    width: 80px;
+    position: fixed;
+    left: 30px;
+    z-index: 2;
+}
+
+.miniLogo img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.miniLogo img:hover {
+    scale: 1.09;
 }
