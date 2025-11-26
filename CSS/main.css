@@ -178,6 +178,7 @@ button a:hover {
     width: 80px;
     position: fixed;
     left: 30px;
+    z-index: 2;
 }
 
 .miniLogo img {
@@ -288,3 +289,8 @@ form button:hover {
 .sted li :nth-child(1){
     margin: 0 100px;
 }
+
+.sted img {
+    width: 200%;
+}
+
