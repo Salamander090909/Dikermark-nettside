@@ -15,6 +15,12 @@ body .LoggInnPage {
     margin-top: -250px;
 }
 
+.main {
+    background-image: url(/IMG/IMG_9303.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
 .box {
     border: 2px solid rgb(202, 201, 201);
     background: rgba(255, 255, 255, 0.2);
@@ -117,13 +123,14 @@ body .LoggInnPage {
 }
 
 
-
 .velkommen {
-    border: solid 2px black;
-    border-color: transparent;
-    width: 100%;
+    border: solid 2px rgb(128, 128, 128);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 600px;
     text-align: center;
-    margin-top: 250px;
+    margin: 250px auto;
     margin-bottom: 100px;
 }
 
@@ -131,6 +138,7 @@ body .LoggInnPage {
     width: 50ch;
     margin: 20px auto;
     font-size: 20px;
+    color: black;
 }
 
 .velkommen h1 {
@@ -174,6 +182,11 @@ button a:hover {
 
 .miniLogo img {
     width: 100%;
+    transition: 0.3s;
+}
+
+.miniLogo img:hover {
+    scale: 1.09;
 }
 
 .kontakt {  
@@ -253,14 +266,25 @@ form button:hover {
     font-size: 35px;
 }
 
+.sted {
+    width: 100%;
+}
 .sted h1 {
-    border-bottom: 2px solid black;
-    width: 250px;
+    width: fit-content;
+    margin: 60px auto;
 }
 
 .sted li {
     color: black;
     list-style: none;
-    margin-bottom: 50px;
     font-size: 30px;
+}
+
+.sted ul {
+    display: flex;
+
+}
+
+.sted li :nth-child(1){
+    margin: 0 100px;
 }
