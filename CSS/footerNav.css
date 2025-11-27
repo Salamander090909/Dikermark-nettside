@@ -1,0 +1,168 @@
+.infoBoks li {
+    list-style: none;
+}
+
+.infoBoks {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.infoBoks li {
+    font-size: 20px;
+    margin-top: 50px;
+    color: black;
+}
+
+.infoBoks p {
+    font-size: 15px;
+
+}
+
+.logo {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.dikemark {
+    width: 200px;
+}
+
+.some {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; 
+}
+
+.some img {
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+
+
+.off-screen-meny {
+    background-color: rgb(205, 205, 205);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 2rem;
+    transform: translateY(-120%);
+    transition: .3s ease;
+    z-index: 1;
+}
+
+.off-screen-meny.active {
+    transform: translateY(0);
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    width: fit-content;
+
+}
+
+.ham-meny {
+    left: 1180px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    z-index: 2;
+}
+
+.ham-meny span {
+    height: 5px;
+    width: 100%;
+    background-color: #24295d;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.ham-meny span:nth-child(1) {
+    top: 25%;
+}
+
+.ham-meny span:nth-child(3) {
+    top: 75%;
+}
+
+.ham-meny.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.ham-meny.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.ham-meny.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.off-screen-meny ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.off-screen-meny a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.off-screen-meny li {
+    list-style: none;
+    scale: 1;
+    transition: .3s;
+    margin-bottom: 10px;
+}
+
+.off-screen-meny li:hover {
+    scale: 1.3;
+}
+
+.miniLogo {
+    width: 80px;
+    position: fixed;
+    left: 30px;
+    z-index: 2;
+}
+
+.miniLogo img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.miniLogo img:hover {
+    scale: 1.09;
+}

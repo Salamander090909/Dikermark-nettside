@@ -1,99 +1,11 @@
 body {
     height: 100%;
     margin: 0;
-    background-color: rgb(82, 81, 81);
+    background-color: rgb(158, 158, 158);
     color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-.off-screen-meny {
-    background-color: rgb(34, 37, 49);
-    height: 100vh;
-    width: 100%;
-    max-width: 450px;
-    position: fixed;
-    top: 10;
-    right: -450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 3rem;
-    transition: .3s ease;
-}
-
-.off-screen-meny.active {
-    right: 0;
-}
-
-nav {
-    padding: 1rem;
-    display: flex;
-    background-color: rgb(34, 37, 49);
-}
-
-.ham-meny {
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
-    position: relative;
-}
-
-.ham-meny span {
-    height: 5px;
-    width: 100%;
-    background-color: #6F86FF;
-    border-radius: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: .3s ease;
-}
-
-.ham-meny span:nth-child(1) {
-    top: 25%;
-}
-
-.ham-meny span:nth-child(3) {
-    top: 75%;
-}
-
-.ham-meny.active span:nth-child(1) {
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.ham-meny.active span:nth-child(2) {
-    opacity: 0;
-}
-
-.ham-meny.active span:nth-child(3) {
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
-}
-
-.off-screen-meny ul {
-    margin-top: -200px;
-}
-
-.off-screen-meny a {
-    color: white;
-    text-decoration: none;
-}
-
-.off-screen-meny li {
-    list-style: none;
-    scale: 1;
-    transition: .3s;
-    margin-bottom: 10px;
-}
-
-.off-screen-meny li:hover {
-    scale: 1.3;
 }
 
 body .LoggInnPage {
@@ -101,6 +13,12 @@ body .LoggInnPage {
     justify-content: center;
     align-items: center;
     margin-top: -250px;
+}
+
+.main {
+    background-image: url(/IMG/IMG_9303.jpg);
+    background-size: cover;
+    width: 100%;
 }
 
 .box {
@@ -204,44 +122,291 @@ body .LoggInnPage {
     top: 10px;
 }
 
-.infoBoks li {
-    list-style: none;
+
+.velkommen {
+    border: solid 2px rgb(128, 128, 128);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 600px;
+    text-align: center;
+    margin: 250px auto;
+    margin-bottom: 100px;
 }
 
-.infoBoks {
-    border: 1px solid white;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: auto;
-}
-
-.infoBoks ul {
-    margin: 0;
-}
-
-.infoBoks li {
+.velkommen p {
+    width: 50ch;
+    margin: 20px auto;
     font-size: 20px;
-    margin-top: 50px;
+    color: black;
 }
 
-.infoBoks p {
-    font-size: 15px;
+.velkommen h1 {
+    font-size: 40px;
+    margin: 0 auto;
 }
 
-.logo {
-    width: 15%;
+.links {
+    margin-bottom: 80px;
+    gap: 100px;
 }
 
-.logo img {
+button {
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    scale: 1;
+    transition: .3s ease;
+}
+
+button a {
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+button a:hover {
+    color: #0000EE;
+}
+
+
+.kontakt {  
+    width: 100%;
+    
+}
+
+h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 80px;   
+    font-style: italic;
+    color: black;
+}
+
+.kontaktBoks {
+    border: 2px solid rgb(161, 161, 161);
+    padding-bottom: 50px;
+    width: 500px;
+    margin-left: 90px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin-left: 30px;
+    color: black;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+form button {
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+form button:hover {
+    scale: 1;
+}
+
+.hvit {
+    background-color: #adadad;
+}
+
+.åpningstider {
+    color: black;
+    margin-top: -100px;
+    margin-left: 250px;
+}
+
+.åpningstider li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.kontakt {
+    display: flex;
+}
+
+.åpningstider h1 {
+    margin: 0 0 80px 40px;
+    font-size: 35px;
+}
+
+.sted {
+    width: 100%;
+}
+.sted h1 {
+    width: fit-content;
+    margin: 100px auto;
+}
+
+.rad {
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.kolonne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.bilder img {
+    height: 250px;
+    margin: 0 50px 10px 50px;
+    gap: 50px;
+}
+
+.kolonne:nth-child(2) {
+    margin: 100px 5px;
+    margin-bottom: 0;
+}
+
+
+.knapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.knapper button {
+    margin: 0 190px 10px 100px;
+    background-color: #24295d;
+}
+
+.kolonne:nth-child(2) .knapper button {
+    margin: 0 120px 10px 40px;
+}
+
+.knapper button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.topTekst {
     width: 100%;
 }
 
 .fa-brands {
     scale: 2;
     margin-top: 20px;
-    margin-left: 53px;
     margin-left: 100px;
 }
+
+.topTekst h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topTekst p {
+    color: black;
+    width: 90ch;
+    margin: 75px auto;
+    font-size: 18px;
+}
+
+.midten p {
+    width: 50ch;
+    color: black;
+    margin: 75px auto;
+}
+
+.midten span {
+    font-size: 18px;
+}
+
+.sideBytte {
+    justify-content: center;
+    display: flex;
+    gap: 400px;
+}
+
+.sideBytte button {
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    margin: 100px 20px 100px 0;
+}
+
+
+.sideBytte a {
+    text-decoration: none;
+}
+
+.sideBytte button:hover {
+    scale: 1;
+    background-color: rgb(178, 251, 178);
+}
+
+.sideBytte button a:hover {
+    color: black;
+}
+
+.midten {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.para1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin:auto;
+}
+
+.para2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%;
+    margin:auto;
+}
+
+.sideImg {
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 200px;
+    border: 1px solid black;
+}
+
+.tekst {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
