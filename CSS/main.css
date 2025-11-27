@@ -311,6 +311,12 @@ form button:hover {
     width: 100%;
 }
 
+.fa-brands {
+    scale: 2;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
 .topTekst h1 {
     font-size: 50px;
     text-align: center;
@@ -346,8 +352,8 @@ form button:hover {
     border-radius: 50px;
     width: 200px;
     margin: 100px 20px 100px 0;
-
 }
+
 
 .sideBytte a {
     text-decoration: none;
