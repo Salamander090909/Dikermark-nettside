@@ -11,10 +11,6 @@
     margin-top: auto;
 }
 
-.infoBoks ul {
-    margin-left: 200px;
-}
-
 .infoBoks li {
     font-size: 20px;
     margin-top: 50px;
@@ -27,25 +23,34 @@
 }
 
 .logo {
-    width: 15%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     margin-left: 300px;
+    margin-right: 300px;
 }
 
-.logo img {
-    width: 100%;
+
+.dikemark {
+    width: 200px;
 }
 
-.face {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.some {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; 
 }
 
-.insta {
-    width: 100px;
-    height: 100px;
-
+.some img {
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
+
+
 
 
 .off-screen-meny {

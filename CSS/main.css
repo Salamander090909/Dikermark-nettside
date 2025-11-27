@@ -307,4 +307,98 @@ form button:hover {
     color: rgb(255, 255, 255);
 }
 
+.topTekst {
+    width: 100%;
+}
+
+.topTekst h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topTekst p {
+    color: black;
+    width: 90ch;
+    margin: 75px auto;
+    font-size: 18px;
+}
+
+.midten p {
+    width: 50ch;
+    color: black;
+    margin: 75px auto;
+}
+
+.midten span {
+    font-size: 18px;
+}
+
+.sideBytte {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sideBytte button {
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.sideBytte a {
+    text-decoration: none;
+}
+
+.sideBytte button:hover {
+    scale: 1;
+    background-color: rgb(178, 251, 178);
+}
+
+.sideBytte button a:hover {
+    color: black;
+}
+
+.midten {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.para1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin:auto;
+}
+
+.para2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%;
+    margin:auto;
+}
+
+.sideImg {
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 200px;
+}
+
+.tekst {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
