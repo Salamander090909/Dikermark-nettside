@@ -174,21 +174,6 @@ button a:hover {
     color: #0000EE;
 }
 
-.miniLogo {
-    width: 80px;
-    position: fixed;
-    left: 30px;
-    z-index: 2;
-}
-
-.miniLogo img {
-    width: 100%;
-    transition: 0.3s;
-}
-
-.miniLogo img:hover {
-    scale: 1.09;
-}
 
 .kontakt {  
     width: 100%;
@@ -242,7 +227,7 @@ form button:hover {
 }
 
 .hvit {
-    background-color: white;
+    background-color: #adadad;
 }
 
 .åpningstider {
@@ -272,25 +257,150 @@ form button:hover {
 }
 .sted h1 {
     width: fit-content;
-    margin: 60px auto;
+    margin: 100px auto;
 }
 
-.sted li {
-    color: black;
-    list-style: none;
-    font-size: 30px;
+.rad {
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 40px;
 }
 
-.sted ul {
+.kolonne {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.bilder img {
+    height: 250px;
+    margin: 0 50px 10px 50px;
+    gap: 50px;
+}
+
+.kolonne:nth-child(2) {
+    margin: 100px 5px;
+    margin-bottom: 0;
+}
+
+
+.knapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 
 }
 
-.sted li :nth-child(1){
-    margin: 0 100px;
+.knapper button {
+    margin: 0 190px 10px 100px;
+    background-color: #24295d;
 }
 
-.sted img {
-    width: 200%;
+.kolonne:nth-child(2) .knapper button {
+    margin: 0 120px 10px 40px;
 }
+
+.knapper button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.topTekst {
+    width: 100%;
+}
+
+.topTekst h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topTekst p {
+    color: black;
+    width: 90ch;
+    margin: 75px auto;
+    font-size: 18px;
+}
+
+.midten p {
+    width: 50ch;
+    color: black;
+    margin: 75px auto;
+}
+
+.midten span {
+    font-size: 18px;
+}
+
+.sideBytte {
+    justify-content: center;
+    display: flex;
+    gap: 400px;
+}
+
+.sideBytte button {
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    margin: 100px 20px 100px 0;
+
+}
+
+.sideBytte a {
+    text-decoration: none;
+}
+
+.sideBytte button:hover {
+    scale: 1;
+    background-color: rgb(178, 251, 178);
+}
+
+.sideBytte button a:hover {
+    color: black;
+}
+
+.midten {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.para1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin:auto;
+}
+
+.para2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%;
+    margin:auto;
+}
+
+.sideImg {
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 200px;
+    border: 1px solid black;
+}
+
+.tekst {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 

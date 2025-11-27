@@ -3,45 +3,58 @@
 }
 
 .infoBoks {
-    border: 1px solid white;
-    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
     width: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin-top: auto;
-}
-
-.infoBoks ul {
-    margin: 0;
 }
 
 .infoBoks li {
     font-size: 20px;
     margin-top: 50px;
+    color: black;
 }
 
 .infoBoks p {
     font-size: 15px;
+
 }
 
 .logo {
-    width: 15%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
-.logo img {
-    width: 100%;
+
+.dikemark {
+    width: 200px;
 }
 
-.fa-brands {
-    scale: 2;
-    margin-top: 20px;
-    margin-left: 53px;
+.some {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; 
 }
+
+.some img {
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
 
 
 .off-screen-meny {
-    background-color: rgb(34, 37, 49);
+    background-color: rgb(205, 205, 205);
     height: 100px;
     width: 100%;
     position: fixed;
@@ -82,7 +95,7 @@ nav {
 .ham-meny span {
     height: 5px;
     width: 100%;
-    background-color: #6F86FF;
+    background-color: #24295d;
     border-radius: 25px;
     position: absolute;
     top: 50%;
@@ -123,7 +136,7 @@ nav {
 }
 
 .off-screen-meny a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -136,4 +149,20 @@ nav {
 
 .off-screen-meny li:hover {
     scale: 1.3;
+}
+
+.miniLogo {
+    width: 80px;
+    position: fixed;
+    left: 30px;
+    z-index: 2;
+}
+
+.miniLogo img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.miniLogo img:hover {
+    scale: 1.09;
 }
