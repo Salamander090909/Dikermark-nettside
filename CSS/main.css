@@ -336,16 +336,17 @@ form button:hover {
 }
 
 .sideBytte {
+    justify-content: center;
     display: flex;
-    justify-content: space-around;
+    gap: 400px;
 }
 
 .sideBytte button {
     padding: 20px;
     border-radius: 50px;
     width: 200px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin: 100px 20px 100px 0;
+
 }
 
 .sideBytte a {
@@ -389,6 +390,7 @@ form button:hover {
     height: 300px;
     border-radius: 10px;
     margin-right: 200px;
+    border: 1px solid black;
 }
 
 .tekst {
