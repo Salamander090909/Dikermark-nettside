@@ -85,7 +85,9 @@ body .LoggInnPage {
     margin-top: 5px;
     position: relative;
     justify-content: center;
+    
 }
+
 
 .links a {
     text-decoration: none;
@@ -116,6 +118,7 @@ body .LoggInnPage {
 
 .home a{
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     position: relative;
     left: 100px;
@@ -139,6 +142,7 @@ body .LoggInnPage {
     margin: 20px auto;
     font-size: 20px;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .velkommen h1 {
@@ -189,7 +193,7 @@ h1 {
 }
 
 .kontaktBoks {
-    border: 2px solid rgb(161, 161, 161);
+    border: 2px solid #000000;
     padding-bottom: 50px;
     width: 500px;
     margin-left: 90px;
@@ -227,7 +231,7 @@ form button:hover {
 }
 
 .hvit {
-    background-color: #adadad;
+    background: linear-gradient(160deg, #b1e2d5 0%, #24295d 100%);
 }
 
 .åpningstider {
@@ -238,6 +242,7 @@ form button:hover {
 
 .åpningstider li {
     list-style: none;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 15px;
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 16px;
@@ -278,6 +283,11 @@ form button:hover {
     height: 250px;
     margin: 0 50px 10px 50px;
     gap: 50px;
+    transition: .3s ease;
+}
+
+.bilder img:hover {
+    scale: 1.05;
 }
 
 .kolonne:nth-child(2) {
@@ -329,11 +339,13 @@ form button:hover {
     width: 90ch;
     margin: 75px auto;
     font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .midten p {
     width: 50ch;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
     margin: 75px auto;
 }
 
@@ -409,4 +421,7 @@ form button:hover {
     justify-content: center;
 }
 
-
+p {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.3;
+}

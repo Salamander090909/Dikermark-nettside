@@ -16,15 +16,7 @@ h1 {
   padding-bottom: 30px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
-  margin-top: -75px;
-  margin-left: 50px;
-  font-family: 'Times New Roman', Times, serif;
-}
+
 
 html, body {
   margin: 0;
@@ -62,11 +54,6 @@ html, body {
   font-family: 'Times New Roman', Times, serif;
 }
 
-nav,
-.off-screen-meny {
-  position: absolute;
-  z-index: 10;
-}
 
 .content {
   padding: 2rem;
@@ -74,6 +61,7 @@ nav,
 
 .hund-image img {
   position: fixed;
+  z-index: 0;
 }
 
 .text2 {
