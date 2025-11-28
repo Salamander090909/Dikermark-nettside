@@ -54,7 +54,7 @@
 
 
 .off-screen-meny {
-    background-color: rgb(205, 205, 205);
+    background-color: #ffffff;
     height: 100px;
     width: 100%;
     position: fixed;
@@ -69,12 +69,21 @@
     font-size: 2rem;
     transform: translateY(-120%);
     transition: .3s ease;
-    z-index: 1;
+    z-index: 1000;
+    transform: translateY(-100%); /* starter rett over skjermen */
+    transition: transform 0.3s ease;
+
 }
 
 .off-screen-meny.active {
     transform: translateY(0);
+    
 }
+
+.ham-meny, .miniLogo {
+    z-index: 1001;
+}
+
 
 nav {
     padding: 1rem;
@@ -89,7 +98,7 @@ nav {
     height: 50px;
     width: 50px;
     position: fixed;
-    z-index: 2;
+    z-index: 1002;
 }
 
 .ham-meny span {
@@ -133,6 +142,7 @@ nav {
     gap: 40px;
     padding: 0;
     margin: 0;
+
 }
 
 .off-screen-meny a {
@@ -155,7 +165,6 @@ nav {
     width: 80px;
     position: fixed;
     left: 30px;
-    z-index: 2;
 }
 
 .miniLogo img {

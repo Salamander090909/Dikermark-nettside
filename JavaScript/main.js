@@ -1,8 +1,7 @@
-const hamMeny = document.querySelector('.ham-meny');
+const ham = document.querySelector('.ham-meny');
+const menu = document.querySelector('.off-screen-meny');
 
-const offScreenMeny = document.querySelector('.off-screen-meny');
-
-hamMeny.addEventListener('click', () => {
-    hamMeny.classList.toggle('active');
-    offScreenMeny.classList.toggle('active')
-})
+ham.addEventListener('click', () => {
+    ham.classList.toggle('active');
+    menu.classList.toggle('active'); // viktig
+});
