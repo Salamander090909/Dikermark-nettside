@@ -16,15 +16,7 @@ h1 {
   padding-bottom: 30px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
-  margin-top: -75px;
-  margin-left: 50px;
-  font-family: 'Times New Roman', Times, serif;
-}
+
 
 html, body {
   margin: 0;

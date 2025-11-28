@@ -283,6 +283,11 @@ form button:hover {
     height: 250px;
     margin: 0 50px 10px 50px;
     gap: 50px;
+    transition: .3s ease;
+}
+
+.bilder img:hover {
+    scale: 1.05;
 }
 
 .kolonne:nth-child(2) {
