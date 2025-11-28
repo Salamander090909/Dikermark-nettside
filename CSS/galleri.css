@@ -2,12 +2,13 @@ body {
   margin: 0;
   background-color: rgb(255, 255, 255);
   min-height: 1200vh;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
   margin-top: 20px;
   margin-left: 0px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 76px;
   color: white;
   display: inline-block;
@@ -22,9 +23,8 @@ a {
   display: block;
   margin-top: -75px;
   margin-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
 }
-
-
 
 html, body {
   margin: 0;
@@ -52,7 +52,6 @@ html, body {
   mask-image: linear-gradient(to bottom, transparent 0%, black 35%);
 }
 
-
 .hero-title {
   position: absolute;
   top: 50%;
@@ -60,6 +59,7 @@ html, body {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 nav,
@@ -82,6 +82,7 @@ nav,
   margin: 2rem;
   margin-top: 0px;
   margin-left: 450px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .text3 {
@@ -90,6 +91,7 @@ nav,
   margin: 2rem;
   margin-top: -20px;
   margin-left: 470px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .image2,
@@ -109,7 +111,7 @@ nav,
   margin: 0;
   margin-top: 40px;
   margin-left: 100px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .text11 {
@@ -118,7 +120,7 @@ nav,
   margin: 0;
   margin-top: 10px;
   margin-left: 180px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .text12 {
@@ -127,7 +129,7 @@ nav,
   margin: 0;
   margin-top: 10px;
   margin-left: 100px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .gurt {
@@ -141,7 +143,7 @@ nav,
   margin: 0;
   margin-top: 50px;
   margin-left: 278px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .text14 {
@@ -150,9 +152,8 @@ nav,
   margin: 0;
   margin-top: 10px;
   margin-left: 220px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
-
 
 .text15 {
   color: black;
@@ -160,9 +161,8 @@ nav,
   margin: 0;
   margin-top: 10px;
   margin-left: 370px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
-
 
 .image9,
 .image10{
@@ -189,7 +189,7 @@ nav,
   margin: 0;
   margin-top: 10px;
   margin-left: 150px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .text21 {
@@ -198,7 +198,7 @@ nav,
   margin: 0;
   margin-top: 25px;
   margin-left: 370px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .image11{
@@ -216,7 +216,7 @@ nav,
   margin: 0;
   margin-top: 25px;
   margin-left: 300px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .text30 {
@@ -225,7 +225,7 @@ nav,
   margin: 0;
   margin-top: 10px;
   margin-left: 450px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .image30{
@@ -243,7 +243,7 @@ nav,
   margin: 0;
   margin-top: 100px;
   margin-left: 1000px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .finalsoon1 {
@@ -252,7 +252,7 @@ nav,
   margin: 0;
   margin-top: 0px;
   margin-left: 1000px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .finalsoon2 {
@@ -261,7 +261,7 @@ nav,
   margin: 0;
   margin-bottom: 100px;
   margin-left: 1000px;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .finalsoon3 {
@@ -269,21 +269,7 @@ nav,
   font-size: 20px;
   margin: 0;
   margin-bottom: 100px;
-  margin-left: 1000px;
-  font-family: monospace;
+  margin-left: 400px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.face {
-
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-left: 100px;
-}
-
-.insta {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-left: 50px;
-}
