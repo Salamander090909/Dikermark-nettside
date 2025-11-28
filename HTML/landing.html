@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/landing.css">
+    <title>Kunsthall Dikemark</title>
+ 
+    <style>
+        body {
+            margin: 0;
+            font-family: "Inter", Arial, sans-serif;
+            background: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.7;
+            letter-spacing: 0.2px;
+        }
+ 
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 60px;
+            background: #ffffff;
+            border-bottom: 1px solid #eaeaea;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+ 
+        .navbar .brand {
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-size: 18px;
+            color: #111;
+        }
+ 
+        .navbar .social {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+        }
+ 
+        .navbar .icon {
+            display: inline-flex;
+            align-items: center;
+            color: #111;
+            text-decoration: none;
+        }
+ 
+        .navbar .icon svg {
+            width: 26px;
+            height: 26px;
+            display: block;
+            fill: currentColor;
+            transition: transform 0.12s ease, color 0.12s ease;
+        }
+ 
+        .navbar .icon:hover {
+            color: #000;
+        }
+ 
+        .navbar .logo {
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
+ 
+        .navbar .logo img {
+            height: 64px;
+            width: auto;
+            display: block;
+        }
+ 
+        .navbar .left-content {
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+ 
+ 
+        h1, h2, h3 {
+            font-family: "Inter", Arial, sans-serif;
+        }
+ 
+        h1 {
+            font-size: 58px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+ 
+        h2 {
+            font-size: 30px;
+            margin-top: 60px;
+            margin-bottom: 15px;
+            font-weight: 500;
+            color: #111;
+        }
+ 
+        h3 {
+            font-size: 22px;
+            font-weight: 400;
+            color: #444;
+            margin-top: -5px;
+            margin-bottom: 30px;
+        }
+ 
+        p {
+            font-size: 18px;
+            color: #333;
+            margin: 18px 0;
+            max-width: 750px;
+        }
+ 
+        strong {
+            font-weight: 600;
+        }
+/* overskrift */
+        header {
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            border-bottom: 1px solid #e5e5e5;
+        }
+ 
+ /* Bildet på starten */
+        .hero {
+            width: 100%;
+            height: 65vh;
+            background-image: url("valmueslekten.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 60px;
+        }
+ 
+/* Kontainer */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 30px 80px 30px;
+        }
+ 
+        .section {
+            margin-top: 50px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+ 
+ /* Nyhetsbrev */
+        .newsletter {
+            background: #fafafa;
+            padding: 28px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+            max-width: 600px;
+            .navbar .left-content {
+                display: flex;
+                align-items: center;
+                flex: 1;
+                transform: translateX(-100px);
+            }
+            border-radius: 4px;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+ 
+        button {
+            padding: 12px 25px;
+            background: #000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 16px;
+        }
+ 
+        button:hover {
+            background: #333;
+        }
+ 
+/* Foot'ern */
+        footer {
+            margin-top: 80px;
+            padding: 50px;
+            text-align: center;
+            background: #111;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+ 
+ /* Map */
+        .map-wrap {
+            max-width: 900px;
+            margin: 18px auto 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+ 
+        .map-wrap iframe {
+            width: 100%;
+            height: 320px;
+            border: 0;
+            display: block;
+ 
+            width: 100
+            heigth 320 px
+            border 0
+            display block  
+        }
+ 
+    </style>
+</head>
+<body>
+ 
+ 
+<nav class="navbar" role="navigation" aria-label="Hovednavigasjon">
+    <div class="left-content">
+        <div class="logo">
+            <img src="../IMG/logoNy.png" alt="Kunsthall Dikemark logo">
+        </div>
+        <div class="brand">DIKEMARK KUNSTHALL</div>
+    </div>
+    <div class="social">
+        <a class="icon" href="#" aria-label="Instagram" title="Instagram">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <defs>
+                    <linearGradient id="igGrad" x1="0" x2="1" y1="0" y2="1">
+                        <stop offset="0%" stop-color="#feda75" />
+                        <stop offset="40%" stop-color="#d62976" />
+                        <stop offset="100%" stop-color="#4f5bd5" />
+                    </linearGradient>
+                </defs>
+                <rect width="24" height="24" rx="4" fill="url(#igGrad)" />
+                <path d="M12 7a5 5 0 1 0 5 5 5.006 5.006 0 0 0-5-5zm0 8.2A3.2 3.2 0 1 1 15.2 12 3.2 3.2 0 0 1 12 15.2zM17.5 6.5a1 1 0 1 1-1 1 1 1 0 0 1 1-1z" fill="#fff" />
+            </svg>
+        </a>
+ 
+        <a class="icon" href="#" aria-label="Facebook" title="Facebook">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#1877F2" />
+                <path d="M15.5 7h-1.6c-.9 0-1 .4-1 1v1.3h2.6l-.4 2.9h-2.2V21h-3v-8.8H8v-2.9h1.9V9.3c0-1.6 1-2.8 3-2.8h1.6V7z" fill="#fff" />
+            </svg>
+        </a>
+ 
+        <a class="icon" href="#" aria-label="Snapchat" title="Snapchat">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="4" fill="#FFFC00" />
+                <text x="12" y="16" text-anchor="middle" font-family="Segoe UI Emoji, Arial" font-size="12">👻</text>
+            </svg>
+        </a>
+    </div>
+</nav>
+ 
+<div class="hero"></div>
+ 
+<div class="container">
+ 
+    <h1>VALMUESLEKTEN</h1>
+    <h3>Marit Arnekleiv og Marte Meling Enoksen</h3>
+ 
+    <p><strong>30. november - 14. desember</strong><br>
+    Prosjektrommet, Kunsthall Dikemark</p>
+ 
+ 
+ 
+    <p><strong>Åpning: søndag 30. november kl. 13:00.</strong></p>
+ 
+    <div class="section">
+        <h2>Om utstillingen</h2>
+        <p>
+            Utstillingen Valmueslekten bygger på det fotografiske materialet fra boken med samme tittel, utgitt i bokserien TILT av Harpefoss hotell kunstarena (2025).
+        </p>
+        <p>
+            Prosjektet er resultatet av Marit Arnekleivs arbeidsopphold i bygningene til Toftes gave på Helgøya. Utstillingen består av både fotografier og en installasjon utviklet i samarbeid med Marte Meling Enoksen.
+        </p>
+        <p>
+            Historiske paralleller mellom Toftes gave og Dikemark gir prosjektet en ekstra dimensjon.
+        </p>
+    </div>
+ 
+    <div class="section">
+        <h2>Installasjon</h2>
+        <p>
+            Installasjonen tar utgangspunkt i to vindusmotiver trykket i offset på tynt papir. Overlapping, lysgjennomslipp og det fysiske volumet av trykkene er sentrale elementer i utstillingen.
+        </p>
+    </div>
+ 
+    <div class="section">
+        <h2>Publikasjon</h2>
+        <p>
+            <strong>Valmueslekten / Papaver</strong><br>
+            Foto: Marit Arnekleiv<br>
+            Tekst: Eivind Hofstad Evjemo & Hans-Jørgen Wallin Weihe<br>
+            Design: Marte Meling Enoksen<br>
+            Utgitt i samarbeid med Harpefoss hotell kunstarena (2025)
+        </p>
+    </div>
+ 
+    <div class="section">
+        <h2>Åpningstider</h2>
+        <p>Onsdag, lørdag og søndag kl. 12 - 16, og etter avtale.</p>
+    </div>
+ 
+    <div class="section">
+        <h2>Nyhetsbrev</h2>
+ 
+        <div class="newsletter">
+            <p>Få oppdateringer om utstillinger og arrangementer:</p>
+            <input type="email" placeholder="E-postadresse">
+            <button>Abonner</button>
+        </div>
+    </div>
+ 
+    <div class="section">
+        <h2>Slik kommer du hit</h2>
+        <p>
+            Tog til Asker stasjon → buss 280 mot Dikemark/Heggedal. Gratis parkering i området.
+        </p>
+        <p><strong>Besøksadresse:</strong><br>
+            Verkensveien 2, 1385 Asker
+        </p>
+        <div class="map-wrap" aria-label="Kart over besøksadresse">
+            <iframe
+                src="https://www.google.com/maps?q=Verkensveien%202%2C%201385%20Asker&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Kart: Verkensveien 2, 1385 Asker">
+            </iframe>
+        </div>
+    </div>
+ 
+</div>
+ 
+<footer>
+    © Kunsthall Dikemark
+</footer>
+ 
+</body>
+</html>
